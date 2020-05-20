@@ -3,11 +3,11 @@
 SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of people automatically. Below are the things needs to setup SendGreetings.
 
   - Google Apps - Google Drive, Google Sheets, Google Script Editor
-  - Account with GMAIL, TWILIO and Whatsmate.
+  - Account with [GMAIL](https://mail.google.com/), [TWILIO](https://www.twilio.com/try-twilio) and [Whatsmate](https://www.whatsmate.net/whatsapp-gateway-api.html).
   - Some Knowledge of Javascript to edit the files.
 
 # Resources
-- Download the Resources from https://bit.ly/2TpKmQW
+- Download the Resources from [GoogleDrive](https://bit.ly/2TpKmQW)
 
 # Steps to do:
   - Create a Google Form with Name, Date of Birth, Mobile Number and Email.
@@ -21,4 +21,4 @@ SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of 
 
 License
 ----
-MIT - **Free Software, Hell Yeah!**
+[MIT](https://choosealicense.com/licenses/mit/)- **Free Software, Hell Yeah!**
