@@ -16,12 +16,18 @@ SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of 
   - Update the necessary files where ever needed. You can find what needs to be updated in each file in the description section of each file.
   - Run the Script to check if everything works.
   - Configure the Trigger for the Project to Run the Scripts automatically without manual intervention.
-
-# Note
-  - My intention behind creating this not to remove the human touch of wishing your loved ones on their birthday but its more for a organization/firm who wish to send automatic brithday greetings to employees or clients.
-  - Other applications for this is it can send automatic notifications and wishes for special days like festivals etc.
-  - I would like to dedicate this project to my friend [Vamsi Gajjala](https://www.facebook.com/srideveloperz/) who asked me for a simple application for wishing his clients on important days.
   
-License
-----
+# Create a Form in Google Drive
+![Short Demo to Create Form](doc/GoogleDrive_CreateForm.gif?raw=true)
+
+# Configure Script in Google Sheet
+![Short Demo to Configure Script](doc/GoogleDrive_ConfigureScript.gif?raw=true)
+
+# Credits
+  - https://www.crazycodersclub.com/
+  - https://www.whatsmate.net/whatsapp-group-message-api.html
+  - GREG BAUGUES(https://www.twilio.com/blog/author/gbaugues)
+  - Vamsi Gajjala (Necessity is the Mother of all needs)
+    
+# License
 [MIT](https://choosealicense.com/licenses/mit/)- **Free Software, Hell Yeah!**
