@@ -23,6 +23,9 @@ SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of 
 # Configure Script in Google Sheet
 ![Short Demo to Configure Script](doc/GoogleDrive_ConfigureScript.gif?raw=true)
 
+# Auto Trigger Script
+![Short Demo to Auto Trigger Script](doc/GoogleDrive_AutoTriggerMail.gif?raw=true)
+
 # Credits
   - https://www.crazycodersclub.com/
   - https://www.whatsmate.net/whatsapp-group-message-api.html
