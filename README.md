@@ -1,5 +1,4 @@
 # SendGreetings
-
 SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of people automatically. Below are the things needs to setup SendGreetings.
 
   - Google Apps - Google Drive, Google Sheets, Google Script Editor
@@ -9,7 +8,7 @@ SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of 
 # Resources
 - Download the Resources from [GoogleDrive](https://bit.ly/2TpKmQW)
 
-# Steps to do:
+# Steps to do
   - Create a Google Form with Name, Date of Birth, Mobile Number and Email.
   - Go to Responses and Attach a Google Sheet to store the responses.
   - Open the Google Sheet and Go to Tools -> Script Editor.
