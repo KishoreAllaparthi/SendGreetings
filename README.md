@@ -21,7 +21,7 @@ SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of 
 # Note
   - My intention behind creating this not to remove the human touch of wishing your loved ones on their birthday but its more for a organization/firm who wish to send automatic brithday greetings to employees or clients.
   - Other applications for this is it can send automatic notifications and wishes for special days like festivals etc.
-  - I would like to dedicate this project to my friend Vamsi Gajjala who asked me for a simple application for wishing his clients on important days.
+  - I would like to dedicate this project to my friend [Vamsi Gajjala](https://www.facebook.com/srideveloperz/) who asked me for a simple application for wishing his clients on important days.
   
 License
 ----
