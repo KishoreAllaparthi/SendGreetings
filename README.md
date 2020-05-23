@@ -30,7 +30,7 @@ SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of 
   - https://www.crazycodersclub.com/
   - https://www.whatsmate.net/whatsapp-group-message-api.html
   - GREG BAUGUES(https://www.twilio.com/blog/author/gbaugues)
-  - Vamsi Gajjala (Necessity is the Mother of all needs)
+  - Vamsi Gajjala (Necessity is the Mother of all Inventions)
     
 # License
 [MIT](https://choosealicense.com/licenses/mit/)- **Free Software, Hell Yeah!**
