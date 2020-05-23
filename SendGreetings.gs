@@ -16,20 +16,23 @@ function sendBdayWishes(){
   
 		if(cDate.getDate()==bDate.getDate()){
 			if(cDate.getMonth()==bDate.getMonth()){
-				var name = sheet.getRange(i,2).getValue();
-				var toMail= sheet.getRange(i,5).getValue();
+				var name = sheet.getRange(i,2).getValue(); // Name from SpreadSheet
+				var toMail= sheet.getRange(i,5).getValue(); //Email from SpradSheet
 				try {
                       sendHTMLMail(sheet,name,toMail);
                     } catch (e) {
                 // Logs an ERROR message.
                 Logger.log('sendHTMLMail() yielded an error: ' + e);
+		sheet.getRange(i,6).setValue("ERRROR wishes not sent"); 
                     }
                 sheet.getRange(i,6).setValue("Bday wishes sent"); 
-                try {
+                /*Commented as this requires TWILIO and WhatsMate Subscription and costs $$$
+		try {
                       sendSms(sheet, number, name, messageBody);
                     } catch (e) {
                     // Logs an ERROR message.
                       Logger.log('sendSms() yielded an error: ' + e);
+		      sheet.getRange(i,6).setValue("ERRROR wishes not sent"); 
                     }
                 sheet.getRange(i,7).setValue("SMS wishes sent");
                 try {
@@ -37,8 +40,10 @@ function sendBdayWishes(){
                     } catch (e) {
                     // Logs an ERROR message.
                       Logger.log('sendWhatsapp() yielded an error: ' + e);
+		      sheet.getRange(i,6).setValue("ERRROR wishes not sent"); 
                     }
-                sheet.getRange(i,8).setValue("WhatsApp wishes sent");
+                sheet.getRange(i,8).setValue("WhatsApp wishes sent"); 
+		*/
             }
         }
      }
