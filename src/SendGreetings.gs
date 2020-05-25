@@ -16,8 +16,10 @@ function sendBdayWishes(){
   
 		if(cDate.getDate()==bDate.getDate()){
 			if(cDate.getMonth()==bDate.getMonth()){
-				var name = sheet.getRange(i,2).getValue(); // Name from SpreadSheet
-				var toMail= sheet.getRange(i,5).getValue(); //Email from SpradSheet
+				var name = sheet.getRange(i,2).getValue(); // Name from SpreadSheet *Change Column Number Accordingly*
+				var toMail= sheet.getRange(i,5).getValue(); //Email from SpradSheet *Change Column Number Accordingly*
+				var num = sheet.getRange(i,4).getValue(); //Mobile from SpradSheet *Change Column Number Accordingly*
+				var number = "+91" + num; //Added India Code to prefix the number
 				try {
                       sendHTMLMail(sheet,name,toMail);
                     } catch (e) {
@@ -26,7 +28,7 @@ function sendBdayWishes(){
 		sheet.getRange(i,6).setValue("ERRROR wishes not sent"); 
                     }
                 sheet.getRange(i,6).setValue("Bday wishes sent"); 
-                /*Commented as this requires TWILIO and WhatsMate Subscription and costs $$$
+                /*Commented below code as this requires TWILIO and WhatsMate Subscription and costs $$$
 		try {
                       sendSms(sheet, number, name, messageBody);
                     } catch (e) {
