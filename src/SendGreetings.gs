@@ -20,7 +20,7 @@ function sendBdayWishes(){
 				var toMail= sheet.getRange(i,5).getValue(); //Email from SpradSheet *Change Column Number Accordingly*
 				var num = sheet.getRange(i,4).getValue(); //Mobile from SpradSheet *Change Column Number Accordingly*
 				var number = "+91" + num; //Added India Code to prefix the number
-				try {
+		try {
                       sendHTMLMail(sheet,name,toMail);
                     } catch (e) {
                 // Logs an ERROR message.
@@ -34,7 +34,7 @@ function sendBdayWishes(){
                     } catch (e) {
                     // Logs an ERROR message.
                       Logger.log('sendSms() yielded an error: ' + e);
-		      sheet.getRange(i,6).setValue("ERRROR wishes not sent"); 
+		      sheet.getRange(i,7).setValue("ERRROR wishes not sent"); 
                     }
                 sheet.getRange(i,7).setValue("SMS wishes sent");
                 try {
@@ -42,7 +42,7 @@ function sendBdayWishes(){
                     } catch (e) {
                     // Logs an ERROR message.
                       Logger.log('sendWhatsapp() yielded an error: ' + e);
-		      sheet.getRange(i,6).setValue("ERRROR wishes not sent"); 
+		      sheet.getRange(i,8).setValue("ERRROR wishes not sent"); 
                     }
                 sheet.getRange(i,8).setValue("WhatsApp wishes sent"); 
 		*/
