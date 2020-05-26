@@ -5,9 +5,6 @@ SendGreetings is built to Send Greetings via Gmail, WhatsApp and SMS to List of 
   - Account with [GMAIL](https://mail.google.com/), [TWILIO](https://www.twilio.com/try-twilio) and [Whatsmate](https://www.whatsmate.net/whatsapp-gateway-api.html).
   - Some Knowledge of Javascript to edit the files.
 
-# Resources
-- Download the Resources from [GoogleDrive](https://bit.ly/2TpKmQW)
-
 # Steps to do
   - Create a Google Form with Name, Date of Birth, Mobile Number and Email.
   - Go to Responses and Attach a Google Sheet to store the responses.
